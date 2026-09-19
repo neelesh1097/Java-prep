@@ -1,32 +1,27 @@
 package Oops;
 
+class cars {
 
-class cars{
+    public void car(String s) {
 
-    public void car(String s){
-        
         System.out.println("sedan");
     }
 
-    public String newCar(String n){
-          
+    public String newCar(String n) {
+
         return "Suv";
     }
 
 }
 
-
-
 public class Method {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-          cars c = new cars();
-           c.car("Honda Civic");
-          System.out.println(c.newCar("Harrier"));
-
+        cars c = new cars();
+        c.car("Honda Civic");
+        System.out.println(c.newCar("Harrier"));
 
     }
 
-    
 }
